@@ -1,6 +1,6 @@
 #CALCULATOR
 
-[calculatorsajai.netlify.app](calculatorsajai.netlify.app)
+[calculatorsajai.netlify.app](https://calculatorsajai.netlify.app/)
 
 ###project details
 
