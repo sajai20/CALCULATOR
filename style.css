@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* vsriables */
+:root {
+    --clr-dark: #1f2937;
+    --clr-main-txt: #f9faf8;
+    --clr-secondary-txt: #e5e7eb;
+    --clr-light-blue: #3882f6;
+    --clr-white: #ffffff;
+    --clr-success: #2c03fa;
+    --clr-failure: #f31717;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--clr-main-txt);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    background-color: rgb(208, 182, 232);
+}
+
+.Main-content {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    /* margin-top: 20px; */
+    font-size: 2rem;
+    background-color: #ac9fed;
+}
+
+.display {
+    width: 80%;
+    height: 6vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.table_item {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: rgb(193, 193, 193);
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+}
+
+td {
+    width: 25%;
+}
+
+/* table {
+    width: 100%;
+    height: 200px;
+    border-right-style: solid;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: rgb(193, 193, 193);
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+} */
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
